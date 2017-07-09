@@ -1,0 +1,152 @@
+package sahithya;
+import java.util.*; 
+public class evenodd {
+	public static void main(String[]args)
+	{
+		int i;
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter any number: ");
+		i= s.nextInt();
+		if(i%2==0)
+		{
+			System.out.println("Number is Even");
+		}
+		else
+		{
+			System.out.println("Number is Odd");
+		}
+		
+	}
+
+}
+
+//POSITIVE OR NEGITIVE
+package sahithya;
+import java.util.*; 
+public class numbers 
+{
+	public static void main(String[]args)
+	{
+		int i;
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter any number: ");
+		i= s.nextInt();
+		if(i==0)
+		{
+			System.out.println("Number is Zero");
+		}
+		else if (i>0)
+		{System.out.println("Number is positive");
+		
+		}
+		else
+		{
+			System.out.println("Number is Odd");
+		}
+	}
+}
+
+
+
+//LARGE NUMBER
+package sahithya;
+import java.util.*; 
+public class character
+{
+	public static void main(String[]args)
+	{
+		int a,b,c;
+		int large;
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter first number: ");
+		a= s.nextInt();
+		System.out.println("Enter second number: ");
+		b= s.nextInt();
+		System.out.println("Enter third number: ");
+		c= s.nextInt();
+		large=a;
+		
+		if (b>large)
+		{large=b;
+			
+		}
+		if (c>large)
+		{large=c;
+		}
+		System.out.println("larget number is "+large);
+		
+	}
+}
+
+// LEAP YEAR
+package sahithya;
+import java.util.*; 
+public class leap
+{
+	public static void main(String[]args)
+	{
+		int i;
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter any number: ");
+		i= s.nextInt();
+		if(i%4==0)
+		{
+			System.out.println("Year is leap year");
+		}
+	
+		else
+		{
+			System.out.println("Year is not a leap year");
+		}
+	}
+}
+
+
+
+
+
+// HELLO 
+package sahithya;
+import java.util.*; 
+public class hello 
+{
+	public static void main(String[]args)
+	{
+		for (int i=0; i <= 5; i++) 
+		{
+			System.out.println("Hello");
+		}
+	}
+}
+
+
+
+
+// SUM OF NATURAL NUMBERS 
+package sahithya;
+import java.util.*;
+
+public class natural {
+	 public static void main(String args[])
+	 {
+	        int a, i = 1 ;
+	        int sum = 0;
+	        System.out.println("Enter Number of items :");
+	        Scanner s = new Scanner(System.in);
+	        a = s.nextInt();
+	        while(i <= a)
+	        {
+	            sum = sum +i;
+	            i++;
+	        }
+	        System.out.println("Sum of "+a+" numbers is :"+sum);
+	    } 
+}
+
+
+
+
+
+
+
+
