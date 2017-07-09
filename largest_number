@@ -1,0 +1,29 @@
+//LARGE NUMBER
+package sahithya;
+import java.util.*; 
+public class character
+{
+	public static void main(String[]args)
+	{
+		int a,b,c;
+		int large;
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter first number: ");
+		a= s.nextInt();
+		System.out.println("Enter second number: ");
+		b= s.nextInt();
+		System.out.println("Enter third number: ");
+		c= s.nextInt();
+		large=a;
+		
+		if (b>large)
+		{large=b;
+			
+		}
+		if (c>large)
+		{large=c;
+		}
+		System.out.println("larget number is "+large);
+		
+	}
+}
